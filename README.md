@@ -5,6 +5,8 @@ OVERVIEW
 This project explores how BCG vaccination coverage relates to child mortality trends in Nigeria over time.
 The goal is to understand whether increased vaccination rates are associated with reductions in child mortality.
 
+<img width="830" height="485" alt="Screenshot (56)" src="https://github.com/user-attachments/assets/b4919f71-9080-4566-9da9-a36f4119b00a" />
+
 OBJECTIVES
 
 -To explore trends in BCG vaccination coverage and child mortality in Nigeria.
@@ -35,37 +37,41 @@ EXPLORATORY ANALYSIS
 
 -Observed a steady rise in vaccination coverage over the decades, while child mortality dropped sharply, indicating a potential inverse relationship.
 
-📈 STATISTICAL ANALYSIS
+STATISTICAL ANALYSIS
 
--Pearson Correlation:
+Pearson Correlation:
 
      r = -0.613, p-value = 0.00001
 Which means there is a  strong negative correlation, as vaccination coverage increases, child mortality decreases.
 
--Linear Regression Model:
+Linear Regression Model:
 
       R² = 0.376 
 which means about 38% of changes in mortality can be explained by vaccination coverage.
 
 The slope (-0.1458) means that for every 1% increase in vaccination, the child mortality rate decreases by 0.15 deaths on average.
 
-Key Insights
+KEY INSIGHTS
 
-There’s a statistically significant inverse relationship between BCG vaccination coverage and child mortality in Nigeria.
+-There’s a statistically significant inverse relationship between BCG vaccination coverage and child mortality in Nigeria.
 
-While vaccination is a strong factor, the R² value suggests that other health and socioeconomic factors also influence child survival.
+-While vaccination is a strong factor, the R² value suggests that other health and socioeconomic factors also influence child survival.
 
-Continuous vaccination programs remain vital for reducing preventable deaths.
+-Continuous vaccination programs remain vital for reducing preventable deaths.
 
-🪄 Tools & Libraries
+TOOLS & LIBRARIES
 
-Python (Pandas, Matplotlib, Seaborn, Statsmodels, Scipy)
+-Python (Pandas, Matplotlib, Seaborn, Statsmodels, Scipy)
 
-Data Visualization – Line charts, twin-axis plots
+-Data Visualization: Line charts, twin-axis plots
 
-Statistical Methods – Correlation and linear regression
+-Statistical Methods: Correlation and linear regression
 
-🗣️ Conclusion
+CONCLUSION
 
-The data shows a clear message — higher vaccination coverage saves children’s lives.
+The data shows that higher vaccination coverage saves children’s lives.
 Even though vaccines alone don’t explain everything, they remain a cornerstone of child health progress in Nigeria.
+
+NOTE
+
+Click the files section for the python code
